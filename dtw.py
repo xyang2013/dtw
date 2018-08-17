@@ -34,7 +34,7 @@ def dtw_helper(t1, t2, distance, time_warp_window):
     
     :param array t1: size r
     :param array t2: size c
-    :param func dist: distance measure
+    :param func distance: distance measure
     :param time_warp_window: to limit the search range
 
     >>> t1 = [1,3,4,9,8,2,1,5,7,3]
